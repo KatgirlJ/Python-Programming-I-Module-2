@@ -1,0 +1,21 @@
+def getUserInfo():
+    fName = input("What is your first name?")
+    lName = input("What is your last name?")
+    dateOfBirth = input("What is your date of birth?")
+    gradeLevel = input("What grade are you in")
+    print(fName)
+    print(lName)
+    print(dateOfBirth)
+    print(gradeLevel)
+
+print("Girl = g and boy = b")
+question = input("Are you a girl or a boy?")
+
+if question == "g":
+    getUserInfo()
+
+elif question == "b":
+    print("Sorry you can't answer this question")
+
+else:
+    print("ERROR")
