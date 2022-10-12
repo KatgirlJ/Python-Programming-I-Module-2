@@ -1,0 +1,29 @@
+#Unit1Mod2Test_KJ
+
+#FishStore Program
+
+#Functions
+def fishStore(myFish, myPrice):
+    return "My favorite fish is a " +  myFish + " and it costs $" + myPrice
+
+#Input statements
+myFish = input("Please enter what kind of fish you would like")
+myPrice = input("Please enter the price of the fish")
+
+#Calling function
+print(fishStore(myFish,myPrice))
+print("")
+print("")
+print("")
+#Simple Addition
+#Creating function
+
+def adding(num1,num2):
+    totalMath = int(num1) + int(num2)
+    return num1 + " + " + num2 + " = " + str(totalMath)
+
+#Input
+num1 = input("Please enter your first number")
+num2 = input("Please enter your second number")
+#Calling function
+print(adding(num1,num2))
