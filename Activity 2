@@ -1,0 +1,29 @@
+#U1_M2_A2-KJ
+
+def makeDoctor(fName):
+    doctor = "Doctor " + fName
+    return doctor
+
+fName = input("What is your full name")
+print(makeDoctor(fName))
+
+def makeSchedule(block1, block2, block3, block4):
+    schedule = ("[1st] " + block1.title() + ", [2nd] " + block2.title() + "[3rd] " + block3.title() + ", [4th] " + block4.title())
+    return schedule
+block1 = "English III"
+block2 = "Python Programming"
+block3 = "American History I"
+block4 = "Precalulas"
+print("SCHEDULE: ", makeSchedule(block1, block2, block3, block4))
+
+
+#Schedule 
+def personalInfo(myName, age, numSiblings, favVacation, favActivity):
+    return "My name is", myName, "I am", age, "years old I have", numSiblings, "siblings. My favorite activity is playing", favActivity, "and my favorite vactions is", favVacation
+
+myName = "Katrinna Jones"
+age = "16"
+numSiblings = "2"
+favVacation = "Disney World"
+favActivity = "Playing video games"
+print(personalInfo(myName, age, numSiblings, favVacation, favActivity))
