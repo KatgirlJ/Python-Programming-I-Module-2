@@ -1,0 +1,6 @@
+def screamThis(wordsToYell):
+    print(wordsToYell.upper() + "!!!")
+
+
+wordsToYell = input("Scream here =====>")
+screamThis(wordsToYell)
