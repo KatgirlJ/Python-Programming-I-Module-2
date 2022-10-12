@@ -1,0 +1,43 @@
+def addition(num1, num2):
+    totalMath = int(num1) + int(num2)
+    return totalMath
+
+def subtraction(num1, num2):
+    totalMath = int(num1) - int(num2)
+    return totalMath
+
+def multiplication(num1, num2):
+    totalMath = int(num1) * int(num2)
+    return totalMath
+
+def division(num1, num2):
+    totalMath = int(num1) / int(num2)
+    return totalMath
+
+def format():
+    print("*" * 100)
+
+format()
+print("Type 1 for addition")
+print("Type 2 for subtraction")
+print("Type 3 for multiplican")
+print("Type 4 for division")
+format()
+mathProb = input("Please enter the enter one of the following numbers to solve your math problem")
+format()
+num1 = input("Please enter your first number")
+num2 = input("Please enter your second number")
+format()
+if mathProb == "1":
+    print("Your answer is", addition(num1, num2))
+
+elif mathProb == "2":
+    print("Your answer is", subtraction(num1, num2))
+
+elif mathProb == "3":
+    print("Your answer is", multiplication(num1, num2))
+
+elif mathProb == "4":
+    print("Your answer is", division(num1, num2))
+else:
+    print("Please follow directions")
