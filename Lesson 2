@@ -1,0 +1,12 @@
+def doMathForMe(num1,num2):
+    totalMath = num1 + num2
+    return totalMath
+
+num1 = input("Enter a number")
+num2 = input("Enter a number")
+
+num1 = int(num1)
+num2 = int(num2)
+
+tysonTotal = doMathForMe(num1,num2)
+print(tysonTotal)
