@@ -1,0 +1,25 @@
+#U1_M2_A1-KJ
+
+
+#Step 7
+
+def getUserInfo(myFirstName, myLastName, myGrade, myAge, graduationYear):
+    print(myFirstName, myLastName, "I am in", myGrade, "I'm", myAge, "I graduate in", graduationYear)
+
+getUserInfo("Katrinna", "Jones", "11th", "16", "2024")
+print(" ")
+
+def shoutIt(myPhrase):
+    print(myPhrase.upper() + "!!!")
+
+shoutIt("May I have a pencil")
+
+print(" ")
+
+def screamThis():
+    myPhrase = input("Please type in a phrase")
+    print(myPhrase.upper(), "!")
+
+screamThis()
+
+print(" ")
