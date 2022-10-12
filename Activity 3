@@ -1,0 +1,15 @@
+#U1_M2_A3-KJ
+
+def hatAvailable(color):
+     hatColors = "black, red, blue, green, white, grey, brown, pink"
+     return (color.lower() in hatColors)
+
+haveHat = hatAvailable("green")
+print("hat available is", haveHat)
+
+def birdAvailable(search):
+    birdTypes = "crow, robin, parrot, eagle, sandpiper, hawk, pigeon"
+    return (search.lower() in birdTypes)
+search = input("Enter a type of bird to search: ")
+guess = birdAvailable(search)
+print("Bird available is", guess)
