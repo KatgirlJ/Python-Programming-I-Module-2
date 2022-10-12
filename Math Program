@@ -1,0 +1,28 @@
+print("*" * 100)
+print("1 for addition")
+print("2 for subtraction")
+print("3 for multiplication")
+print("4 for division")
+print("5 for exponents")
+print("*" * 100)
+mathProb = input("Please enter the enter one of the following numbers to solve your math problem")
+
+print("*" * 100)
+num1 = input("Please enter an integer")
+num2 = input("Please enter an integer")
+print("*" * 100)
+
+if mathProb == "1":
+    print(int(num1) + int(num2))
+elif mathProb == "2":
+    print(int(num1) - int(num2))
+
+elif mathProb == "3":
+    print(int(num1) * int(num2))
+
+elif mathProb == "4":
+    print(int(num1) / int(num2))
+elif(mathProb == "5"):
+    print(int(num1)**int(num2))
+else:
+    print("Please follow directions")
