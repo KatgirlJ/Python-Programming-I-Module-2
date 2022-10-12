@@ -1,0 +1,29 @@
+#Learning Functions
+
+def myFormat():
+    print("=" * 50)
+
+myFormat()
+
+def fName():
+    fName = input("What is your first name?")
+
+fName()
+myFormat()
+
+def lName():
+    lName = input("What is your last name?")
+
+lName()
+myFormat()
+
+def myGrade():
+    grade = input("What grade are you in?")
+
+myGrade()
+myFormat()
+def myBirthday():
+    birthday = input("What is your date of birth?")
+
+myBirthday()
+myFormat()
