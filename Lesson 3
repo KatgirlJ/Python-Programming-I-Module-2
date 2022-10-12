@@ -1,0 +1,21 @@
+def doMath(num1,num2):
+    yourTotal = int(num1) + int(num2)
+    return yourTotal
+
+def thankYou():
+    print("Thank you for providing us your information")
+
+
+def format():
+    print("*" * 75)
+
+format()
+num1 = input("Enter your first number")
+thankYou()
+format()
+num2 = input("Enter your second number")
+thankYou()
+format()
+print("Your answer is " , doMath(num1,num2))
+format()
+
