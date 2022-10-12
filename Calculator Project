@@ -1,0 +1,50 @@
+#Calculator Project
+
+#formatting and equations
+def formating():
+    print("*" * 100)
+
+def addition(num1,num2):
+    totalMath = int(num1) + int(num2)
+    print(num1 , "+" , num2, "=", totalMath)
+
+def subraction(num1,num2):
+    totalMath = int(num1) - int(num2)
+    print(num1 , "-" , num2, "=", totalMath)
+
+def multiplication(num1,num2):
+    totalMath = int(num1) * int(num2)
+    print(num1 , "X" , num2, "=", totalMath)
+
+def division(num1,num2):
+    totalMath = int(num1) / int(num2)
+    print(num1 , "/" , num2, "=", totalMath)
+#menu
+formating()
+print("1 = Addition ")
+print("2 = Subtraction")
+print("3 = Multiplication")
+print("4 = Division")
+formating()
+
+operand = input("Please enter a number for your operand")
+num1 = input("Please input your first number")
+num2 = input("Please input your second number")
+formating()
+
+if operand == "1":
+    addition(num1,num2)
+
+elif operand == "2":
+    subraction(num1,num2)
+
+elif operand == "3":
+    multiplication(num1,num2)
+
+elif operand == "4":
+    division(num1,num2)
+
+else:
+    print("Please follow directions")
+
+formating()
